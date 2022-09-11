@@ -1,0 +1,29 @@
+.header .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-content .logo i {
+  color: rgba(175, 175, 49, 0.1333333333);
+}
+.header .header-content .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-content .right .navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .header-content .right .navbar ul li .link {
+  margin: 10px;
+}
+.header .header-content .right .icons {
+  margin: 10px;
+}
+.header .header-content .right .icons #menu-btn {
+  display: none;
+}
+
+/*# sourceMappingURL=header.css.map */

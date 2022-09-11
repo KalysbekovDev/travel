@@ -1,0 +1,13 @@
+.Reviews .blocks {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Reviews .blocks .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100px;
+}
+
+/*# sourceMappingURL=clients.css.map */

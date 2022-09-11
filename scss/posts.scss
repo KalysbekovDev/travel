@@ -1,0 +1,79 @@
+@import "veriables";
+@import "mixins";
+.posts{
+  .title{
+    padding-bottom: 30px;
+  }
+  .content {
+    .card {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+      grid-gap: 40px;
+      height: 20px;
+      width: 320px;
+      margin-left: 50px;
+      .block {
+        border-radius: 10px;
+        padding-bottom: 20px;
+        position: relative;
+        img {
+          width: 320px;
+          padding: 5px;
+          border-radius:20px ;
+          object-fit: cover ;
+        }
+        h2 {
+          text-align: center;
+          color: $black;
+        }
+
+        p {
+          color: $green;
+          text-align: center;
+          padding: 10px 0;
+        }
+
+        h3 {
+          text-align: center;
+          color: $green;
+        }
+
+        .btn {
+          margin-left: 80px;
+        }
+        .data{
+          display: flex;
+          background: $black;
+          position: absolute;
+          top: 60px;
+          padding: 5px 10px;
+          border-radius: 4px;
+          .calendar{
+            display: flex;
+            i{
+              color: $green;
+            }
+          }
+          .user{
+            display: flex; 
+            i{
+              color: $green;
+            }
+          }
+        }
+        .info{
+          text-align: center ;
+          h2{
+            color:$green ;
+          }
+          p{
+            color: $black;
+            letter-spacing: 1px;
+            line-height: 22px;
+          }
+        }
+     }
+    }  
+  }
+}

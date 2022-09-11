@@ -1,0 +1,75 @@
+@import "veriables";
+.header {
+  float: left;
+  width: 100%;
+  position: fixed ;
+  z-index: 9999;
+  padding: 15px;
+   .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo {
+      font-size: 1.7rem;
+      font-weight: bolder;
+      color: $black;
+
+      i {
+        padding-right: 1rem;
+        font-size: 1.7rem;
+      }
+    }
+
+    .right {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .navbar {
+        ul {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+
+        .link {
+          padding-right: 2rem;
+          font-size: 1.7rem;
+          color: $black;
+          transition: .3s ease;
+
+          &:hover {
+            color: $red;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .icons {
+        font-size: 1.7rem;
+        color: $black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &:hover {
+          color: $red;
+          cursor: pointer;
+        }
+        #menu-btn{
+          display: none;
+        }
+
+        a {
+          color: $black;
+          padding-right: 10px;
+
+          &:hover {
+            color: $red;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+

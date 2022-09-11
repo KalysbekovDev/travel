@@ -1,0 +1,43 @@
+@import "veriables";
+@import "mixins";
+.packages{
+  .content{
+    .title{
+      font-weight: bold;
+    }
+    .card{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      justify-items: center;
+      grid-gap: 40px;
+      height: 20px;
+      width: 320px;
+      margin-left: 50px;
+      .block{
+        border: 1px solid $black;
+        border-radius: 10px ;
+        padding-bottom: 20px;
+        img{
+          width: 320px;
+          padding: 10px;
+        }
+        h2{
+          text-align: center;
+          color: $black;
+        }
+        p{
+          color: $green;
+          text-align: center;
+          padding: 10px 0;
+        }
+        h3{
+          text-align: center;
+          color: $green;
+        }
+        .btn{
+          margin-left: 80px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.posts .content .title {
+  font-weight: bold;
+}
+.posts .content .card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-gap: 40px;
+  height: 20px;
+  width: 320px;
+  margin-left: 50px;
+}
+.posts .content .card .block {
+  border: 1px solid #070202;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+.posts .content .card .block img {
+  width: 320px;
+  padding: 10px;
+}
+.posts .content .card .block h2 {
+  text-align: center;
+  color: #070202;
+}
+.posts .content .card .block p {
+  color: #219150;
+  text-align: center;
+  padding: 10px 0;
+}
+.posts .content .card .block h3 {
+  text-align: center;
+  color: #219150;
+}
+.posts .content .card .block .btn {
+  margin-left: 80px;
+}
+
+/*# sourceMappingURL=posts.css.map */

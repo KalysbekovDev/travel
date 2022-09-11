@@ -1,0 +1,66 @@
+@import "veriables";
+@import "mixins";
+
+.Reviews {
+  .blocks {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+    .card {
+      padding: 20px 30px;
+
+      .review {
+        background: rgba(128, 128, 128, 0.15);
+        padding: 20px;
+        border-radius: 5px;
+        position: relative;
+        &:after{
+          content: '';
+          position: absolute;
+          left: 3px;
+          bottom: -50px;
+          border: 30px solid transparent;
+          border-top: 20px  solid rgba(128, 128, 128, 0.15) ;
+        }
+        p{
+          letter-spacing: 1px;
+          line-height: 22px;
+          font-size: 13px;
+        }
+      }
+
+      .inform {
+        display: flex;
+        align-items: center;
+        padding-top: 30px;
+        padding-left: 8px;
+        img {
+          width: 60px;
+          height: 50px;
+          border-radius: 100%;
+          padding-right: 8px;
+          &:hover{
+            cursor: pointer;
+          }
+        }
+
+        h1 {
+          color: $black;
+          font-size: 16px;
+          &:hover{
+            cursor: pointer;
+          }
+        }
+
+        h3 {
+          color: $green;
+          font-size: 14px;
+          &:hover{
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
